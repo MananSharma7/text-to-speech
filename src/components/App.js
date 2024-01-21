@@ -19,7 +19,7 @@ const App = () => {
 
   return (
     <div id="container">
-      <div>
+      <div id="child">
         <div id="header">Text-to-Speech</div>
         <form onSubmit={handleSubmit}>
           <LangList setLang={setLang} />
