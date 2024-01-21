@@ -1,0 +1,42 @@
+body {
+  background-color: rgba(0, 0, 0, 0.95);
+  color: whitesmoke;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#header {
+  font-size: 55px;
+  padding: 0 0 50px 0;
+}
+
+#input-label {
+  padding: 8px 8px 8px 0;
+  font-size: larger;
+}
+
+#input {
+  margin: 10px 0;
+}
+
+#drop {
+  background-color: rgb(20, 20, 20);
+  color: whitesmoke;
+  border: solid rgba(255, 255, 255, 0.3);
+  border-radius: 50px;
+}
+
+#text-area {
+  background-color: rgb(20, 20, 20);
+  padding: 5px;
+  color: whitesmoke;
+  border: solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  user-select: none;
+  resize: none;
+}
